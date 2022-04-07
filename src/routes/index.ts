@@ -2,8 +2,8 @@ import { Router } from "express";
 import {
   resetPasswordController,
   resetPasswordRequestController,
+  createUserController
 } from "../controllers/auth.controller";
-import { createUserController } from "../controllers/createUser.controller";
 
 const router = Router();
 
